@@ -1,7 +1,7 @@
 body {
   font-family: "Lucidia Grande", sans-serif;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 h1 {
@@ -28,38 +28,38 @@ img {
 }
 
 #intro {
-  min-height: 150px;
   padding: 25px;
+  min-height: 150px;
 }
 
 #red {
-  min-height: 150px;
   padding: 25px;
-  background-color: red;
+  min-height: 150px;
+  background-color: #ff0000;
   text-align: right;
 }
 
 #blue {
-  min-height: 150px;
   padding: 25px;
-  background-color: blue;
+  min-height: 150px;
+  background-color: #0000ff;
   text-align: left;
 }
 
 #yellow {
-  min-height: 150px;
   padding: 25px;
-  background-color: yellow;
+  min-height: 150px;
+  background-color: #ffff00;
   text-align: right;
-  color: black;
+  color: #000000;
   header text-shadow: 5px 5px 2px #c7e2c7;
 }
 
 #green {
-  background-color: green;
-  text-align: left;
   padding: 25px;
   min-height: 150px;
+  background-color: #008000;
+  text-align: left;
 }
 
 footer {
