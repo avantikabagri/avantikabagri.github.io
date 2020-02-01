@@ -80,9 +80,6 @@ td{
   text-align: center;
 }
 
-tr{
-}
-
 tr:nth-child(even){
   background-color: transparent;
 }
@@ -103,6 +100,14 @@ thead tr:first-child th:first-child{
 
 thead tr:first-child th:last-child{
   border-top-right-radius: 15px;
+}
+
+table tr:last-child td:last-child{
+  border-bottom-right-radius: 15px;
+}
+
+table tr:last-child th.rowhead{
+  border-bottom-left-radius: 15px;
 }
 
 footer{
